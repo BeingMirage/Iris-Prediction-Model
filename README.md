@@ -11,8 +11,8 @@ The neural network consists of a simple yet effective architecture with the foll
 
 - **Input Layer**: Takes in four features representing the physical dimensions of the iris flower: sepal length, sepal width, petal length, and petal width.
 - **Two Hidden Layers**: Each layer contains neurons that process the input features through weighted connections, enabling the network to learn complex patterns and relationships within the data.
-  - **First Hidden Layer**: Comprises [specify the number] neurons with [activation function], capturing primary patterns.
-  - **Second Hidden Layer**: Comprises [specify the number] neurons with [activation function], refining the patterns recognized by the first layer.
+  - **First Hidden Layer**: Comprises 8neurons with activation function, capturing primary patterns.
+  - **Second Hidden Layer**: Comprises 9 neurons with activation function refining the patterns recognized by the first layer.
 - **Output Layer**: Utilizes a softmax activation function to output probabilities corresponding to the three iris species: Iris-setosa, Iris-versicolor, and Iris-virginica.
 
 #### Functionality
